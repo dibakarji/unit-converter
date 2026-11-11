@@ -11,7 +11,7 @@ WEIGHT = {
     "mg": 0.000001, "g": 0.001, "kg": 1.0, "t": 1000.0,
     "oz": 0.0283495, "lb": 0.453592,
 }
-DATA = {unit: 1024 ** i for i, unit in enumerate(["B", "KB", "MB", "GB", "TB"])}
+DATA = {unit: 1024 ** i for i, unit in enumerate(["b", "kb", "mb", "gb", "tb"])}
 
 GROUPS = {"length": LENGTH, "weight": WEIGHT, "data": DATA}
 
